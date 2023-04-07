@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/primary_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="my profile"
+        android:textAllCaps="true"
+        android:textColor="#F6F2F2"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/astronot"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20sp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="Yuniar Anggita Kusuma Putri"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="200441100031"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="SISTEM INFORMASI"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="Universitas Trunojoyo Madura"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="Bangkalan"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/teal_700"
+        android:fontFamily="times"
+        android:text="TOP MANTAP IS THE BEST!!"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
