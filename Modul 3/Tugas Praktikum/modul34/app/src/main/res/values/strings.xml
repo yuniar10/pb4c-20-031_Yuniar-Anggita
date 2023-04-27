@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">modul34</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email_address">Email Anda</string>
+    <string name="no_telpon">No Telpon</string>
+    <string name="alamatanda">Alamat Anda</string>
+    <string name="save">SAVE</string>
+    <string name="tambahdata">tambah</string>
+    <string-array name="item_option">
+        <item>Change</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

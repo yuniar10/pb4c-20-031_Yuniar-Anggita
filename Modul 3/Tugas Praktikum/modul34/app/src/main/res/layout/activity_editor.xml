@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".EditorActivity">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="@string/nama_lengkap"
+            android:inputType="textPersonName"
+            android:textSize="30sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="emailAddress"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:textSize="30sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        <EditText
+            android:id="@+id/telpon"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="telpon"
+            android:hint="@string/no_telpon"
+            android:inputType="textPersonName"
+            android:textSize="30sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="Alamat Anda"
+            android:hint="@string/alamatanda"
+            android:inputType="textPersonName"
+            android:textSize="30sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"/>
+</LinearLayout>
