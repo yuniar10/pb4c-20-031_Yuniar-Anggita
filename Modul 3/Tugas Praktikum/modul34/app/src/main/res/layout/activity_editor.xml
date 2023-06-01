@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        app:boxBackgroundColor="@color/white">
         <EditText
             android:id="@+id/fullname"
             android:layout_width="374dp"
@@ -19,13 +19,13 @@
             android:autofillHints="name"
             android:hint="@string/nama_lengkap"
             android:inputType="textPersonName"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        app:boxBackgroundColor="@color/white">
         <EditText
             android:id="@+id/email"
             android:layout_width="374dp"
@@ -33,13 +33,13 @@
             android:autofillHints="emailAddress"
             android:hint="@string/email_address"
             android:inputType="textEmailAddress"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        app:boxBackgroundColor="@color/white">
         <EditText
             android:id="@+id/telpon"
             android:layout_width="374dp"
@@ -47,13 +47,13 @@
             android:autofillHints="telpon"
             android:hint="@string/no_telpon"
             android:inputType="textPersonName"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        app:boxBackgroundColor="@color/design_default_color_on_secondary">
+        app:boxBackgroundColor="@color/white">
         <EditText
             android:id="@+id/alamat"
             android:layout_width="374dp"
@@ -61,7 +61,7 @@
             android:autofillHints="Alamat Anda"
             android:hint="@string/alamatanda"
             android:inputType="textPersonName"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
